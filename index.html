@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corredora Autos</title>
+    <!--css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+        <div class="precios">
+            <div class="container2">
+                <p>Modelo de auto</p>
+                <input id="modelo" type="text">
+            </div>
+            
+            <div class="precio">
+                <p>Precios</p>
+                <div class="precios">
+                    <p>Desde:</p>
+                    <input 
+                    type="number"
+                    id="desde">
+                    <p>Hasta:</p>
+                    <input 
+                    type="number"
+                    id="hasta">
+                </div>
+            </div>
+            
+            <button id="buscar">Buscar</button>
+        </div>
+        
+        <main>
+            <h3 id="total">Total:6</h3>
+            <div class="cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/th.jpg" class="card-img-top" alt="porche 911">
+                    <div class="card-body">
+                        <h5 class="card-title">Porche 911</h5>
+                        <p class="modelo">Modelo: Carreras</p>
+                        <p class="Precio">Precio: 120.000</p>
+                        <p class="card-text">Exelente porche con turbo para disfrutar de las carreteras</p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/amg-hero.webp" class="card-img-top" alt="porche 911">
+                    <div class="card-body">
+                        <h5 class="card-title">Mercedez benz AMG</h5>
+                        <p class="modelo">Modelo: Carreras</p>
+                        <p class="Precio">Precio:240.000</p>
+                        <p class="card-text">El mejor dentro de nuesta gama, v8 para teletrasportarte con su velocidad
+                            y aceleracion.
+                        </p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/Jeep-Performance-Parts-Jeep-Wrangler-1.webp" class="card-img-top" alt="porche 911">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeep wrangler</h5>
+                        <p class="modelo">Modelo: Montañas</p>
+                        <p class="Precio">Precio: 180.000</p>
+                        <p class="card-text">Exelente jeep potente y rudo para dominar los senderos mas complejos</p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/1366_2000.jpg" class="card-img-top" alt="porche 911">
+                    <div class="card-body">
+                        <h5 class="card-title">Hyundai Grand i10</h5>
+                        <p class="modelo">Modelo: Ciudad</p>
+                        <p class="Precio">Precio: 40.000</p>
+                        <p class="card-text">Pequeño pero poderoso y economico, La mejor opcion para alguien joven</p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/2021-F-150.webp" class="card-img-top" alt="porche 911">
+                    <div class="card-body">
+                        <h5 class="card-title">Ford f-150</h5>
+                        <p class="modelo">Modelo: Montañas</p>
+                        <p class="Precio">Precio: 70.000</p>
+                        <p class="card-text">Exelente Camioneta para recorrer senderos y montañas </p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/kiamorning.jpg" class="card-img-top" alt="porche 911">
+                    <div class="card-body">
+                        <h5 class="card-title">Kia morning</h5>
+                        <p class="modelo">Modelo: Ciudad</p>
+                        <p class="Precio">Precio: 20.000</p>
+                        <p class="card-text">Exelente Coche para disfrutar de la ciudad y ahorrar gasolina</p>
+                        <a href="#" class="btn btn-primary">Reservar</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="assets/javascript/index.js"></script>
+    </body>
+    </html>
